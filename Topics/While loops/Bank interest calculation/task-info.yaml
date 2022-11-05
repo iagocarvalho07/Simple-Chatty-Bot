@@ -1,0 +1,35 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    fun findYears(depo: Double): Int{
+        var deposit = depo
+        val interestRate = 1.071
+        val max = 700000
+        var years = 0
+        //
+        // implement the while loop here
+        //
+        return years
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23012#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    650000
+
+    Correct output:
+    2
+
+
+    Your code output:
+    Wrong solution
+  time: "Fri, 04 Nov 2022 20:35:52 UTC"
+record: -1
